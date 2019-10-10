@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dark</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="img/symbol.png">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="lib/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.translate.js"></script>
+	<script src="js/cast.js"></script>
+	<script id="datos" src="js/datos_en.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/translations.js"></script>
+	<script type="text/javascript" src="lib/moment.js"></script>
+	<script type="text/javascript" src="js/timeScript.js"></script>
+
+	<script type="text/javascript" src="js/cambioIdioma.js">
+		
+
+
+
+	</script>
+</head>
+<body>
+	<header>
+		<a href="https://www.netflix.com/es-en/title/80100172" target="_blank"><img src="img/logo.png"></a>
+		
+		<img id="scrollDownButton" class="arrows" src="img/dropdown-down.png" alt="down-arrow"/>
+	</header>
+	<nav>
+		
+		<ul>
+			<li><button type="button" class="selector" value="es" name="es" data-value="es" >
+			ES</button></li>
+			<li><button type="button" class="selector" value="eu" name="eu" data-value="eu" >
+			EU</button></li>
+			<li><button type="button" class="selector" value="en" name="en" data-value="en" >
+			EN</button></li>
+			<li><a href="#main"><span class="trn" data-trn-key="seasons">Seasons<span></a>
+				<ul id="seasonsNav"></ul>
+			</li>
+			<li><a href="#cast"><span class="trn" data-trn-key="episodes">Episodes<span></a></li>
+				<li><a href="merchandising.html" target="_blank"><span class="trn" data-trn-key="merchandising">Merchandising<span></a></li>
+				</ul>
+			</nav>
+			<div id="main">
+				<h1 class="title"><span class="trn" data-trn-key="episodes">Episodes<span></h1>
+					<select id="seasonPicker"></select>
+					<div id="seasonContainer"></div>
+					<div id="cast"></div>
+				</div>
+				<footer><span>Xabier Artola, Koldo Intxausti <span class="trn" data-trn-key="y">and</span> Nerea Labandera &copy 2019</span></footer>
+			</body>
+			</html>
